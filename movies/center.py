@@ -44,16 +44,16 @@ ratatouille = Movie(ratatouille_title, ratatouille_storyline,
                     ratatouille_poster, ratatouille_trailer_url)
 
 
-midnight_in_paris = Movie(midnight_in_paris_title, 
-						  midnight_in_paris_storyline, 
-						  midnight_in_paris_poster, 
-						  midnight_in_paris_trailer_url)
+midnight_in_paris = Movie(midnight_in_paris_title,
+                          midnight_in_paris_storyline,
+                          midnight_in_paris_poster,
+                          midnight_in_paris_trailer_url)
 
 hunger_games = Movie(hunger_games_title, hunger_games_storyline,
-					 hunger_games_poster, hunger_games_trailer_url)
+                     hunger_games_poster, hunger_games_trailer_url)
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, 
-		  midnight_in_paris, hunger_games]
+movies = [toy_story, avatar, school_of_rock, ratatouille,
+          midnight_in_paris, hunger_games]
 
 fresh_tomatoes.open_movies_page(movies)
 
