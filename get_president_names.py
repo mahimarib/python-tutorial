@@ -8,8 +8,14 @@ table_rows = tables[0].find_all('tr')
 # created a new array with with the actual working data
 working_data = table_rows[2:]
 
+presidents = []
+
 for row in working_data:
     # because some rows do not contain the presidents name,
     # had to differentiate the rows
     if len(row.find_all('td')) >= 4:
-        print(row.find_all('td')[3].a.getText())
+        president = row.find_all('td')[3].a.getText()
+        presidents.append(president)
+        # print(president)
+
+print(presidents)
