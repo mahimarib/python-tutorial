@@ -4,4 +4,5 @@ def download_time(gb):
     megabits_per_second = 54
     return gb * megabytes_per_gigabytes * bits_per_byte / megabits_per_second
 
+
 print(download_time(2))
