@@ -1,11 +1,9 @@
 import turtle
 
-
 def draw_square(some_turtle):
-    for i in range(4):
+    for _ in range(4):
         some_turtle.forward(100)
         some_turtle.right(90)
-
 
 def draw_art():
     window = turtle.Screen()
@@ -23,6 +21,5 @@ def draw_art():
     angie.circle(100)
 
     window.exitonclick()
-
 
 draw_art()
