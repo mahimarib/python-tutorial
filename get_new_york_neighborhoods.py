@@ -9,5 +9,5 @@ table_data = table_rows[1:-1]
 for data in table_data:
     population = data.find_all('td')[2].get_text()
     neighborhood = data.find_all('td')[4].get_text()
-    print("neighborhood: %s" % neighborhood,
-          "\n", "population: %s" % population, "\n")
+    print("neighborhood: %s" % neighborhood, "\n",
+          "population: %s" % population, "\n")
